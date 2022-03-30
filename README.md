@@ -1,6 +1,6 @@
 # Benchmarking-Enzyme-Classifiers
 
-##Steps of using the parallelization workflow 
+## Steps of using the parallelization workflow 
 
 1. Download ECpred from the website - https://github.com/cansyl/ECPred 
 2. Install ECpred according to the instructions. 
@@ -11,7 +11,7 @@
 ```
 5. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
-##Steps of using the visualization workflow
+## Steps of using the visualization workflow
 
 1. Download the Uniprot data from <https://www.uniprot.org/uniprot/?query=*&fil=> and name it uniprot_data.csv
 2. Format the result according to result.csv 
