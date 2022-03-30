@@ -20,3 +20,4 @@
 ```
 $python visualization.py
 ```
+5. For sample run, download the data from https://drive.google.com/file/d/1c-HkhGPwfzuiVNTxlx16DMlJzmGrGq6P/view?usp=sharing and extract the file in the same directory where the visulalization.py script exists. Then run the visualization.py like step 4. 
