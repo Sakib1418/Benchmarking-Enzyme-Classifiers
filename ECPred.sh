@@ -4,7 +4,7 @@ mkdir files
 
 mv $1 files/
 
-cd /home/reuel/Desktop/Sakib/ML/classification/ECpred/ECPred/files
+cd {path to ECpred folder}/files
 
 split -l 10 $1 l
 
@@ -17,11 +17,11 @@ wait
 
 for file in *.fasta;do
 sleep 3
-mv $file /home/reuel/Desktop/Sakib/ML/classification/ECpred/ECPred/
-cd /home/reuel/Desktop/Sakib/ML/classification/ECpred/ECPred
-java -jar ECPred.jar weighted $file /home/reuel/Desktop/Sakib/ML/classification/ECpred/ECPred/ temp/ ${file}_results.tsv &
+mv $file {path to ECpred folder}
+cd {path to ECpred folder}
+java -jar ECPred.jar weighted $file {path to ECpred folder} temp/ ${file}_results.tsv &
 sleep 3
-cd /home/reuel/Desktop/Sakib/ML/classification/ECpred/ECPred/files
+cd {path to ECpred folder}/files
 done
 
 wait
@@ -29,7 +29,7 @@ wait
 echo Prediction completed
 sleep 2
 
-cd /home/reuel/Desktop/Sakib/ML/classification/ECpred/ECPred/
+cd {path to ECpred folder}
 
 cat *.tsv >> sample_result.txt
 
