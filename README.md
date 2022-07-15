@@ -11,6 +11,7 @@
 ```
 ./ECPred.sh sample_file
 ```
+5. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
 ### DeepEC
 
@@ -23,8 +24,9 @@ git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
 ```
 ./deepec.sh sample_file
 ```
+4. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
-5. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
+
 
 ## Section 2: Steps of using the visualization workflow
 
