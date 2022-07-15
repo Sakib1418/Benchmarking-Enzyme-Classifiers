@@ -26,7 +26,15 @@ git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
 ```
 4. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
+### Deepre 
 
+1. Go to the website - http://www.cbrc.kaust.edu.sa/DEEPre/
+2. In the designated field input sequences in standard FASTA format 
+
+### BENZ-ws 
+
+1. Go to website - https://benzdb.biocomp.unibo.it/
+2. Input sequences in standard FASTA format. 
 
 ## Section 2: Steps of using the visualization workflow
 
