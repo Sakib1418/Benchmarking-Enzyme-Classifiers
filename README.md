@@ -15,16 +15,17 @@
 
 ### DeepEC
 
-1. Clone the repository by command - 
+1. Go to the website - https://bitbucket.org/kaistsystemsbiology/deepec/src/master/
+2. Clone the repository by command - 
 ```
 git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
 ```
-2. Create and activate conda enviornment following the instruction in the README.md file. 
-3. Run the provided bash script deepec.sh with the sample file provided. 
+3. Create and activate conda enviornment following the instruction in the README.md file. 
+4. Run the provided bash script deepec.sh with the sample file provided. 
 ```
 ./deepec.sh sample_file
 ```
-4. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
+5. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
 ### Deepre 
 
