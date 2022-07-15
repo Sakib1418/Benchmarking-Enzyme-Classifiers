@@ -2,6 +2,8 @@
 
 ## Section 1: Steps of using the parallelization workflow 
 
+### ECpred
+
 1. Download ECpred from the website - https://github.com/cansyl/ECPred 
 2. Install ECpred according to the instructions. 
 3. Copy the ECPred.sh and sample_file to the directory 
@@ -9,6 +11,19 @@
 ```
 ./ECPred.sh sample_file
 ```
+
+### DeepEC
+
+1. Clone the repository by command - 
+```
+git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
+```
+2. Create and activate conda enviornment following the instruction in the README.md file. 
+3. Run the provided bash script deepec.sh with the sample file provided. 
+```
+./deepec.sh sample_file
+```
+
 5. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
 ## Section 2: Steps of using the visualization workflow
