@@ -20,12 +20,17 @@
 ```
 git clone https://bitbucket.org/kaistsystemsbiology/deepec.git
 ```
-3. Create and activate conda enviornment following the instruction in the README.md file. 
+3. Create and activate conda enviornment following the instruction in the README.md file - 
+```
+conda env create -f environment.yml
+conda activate deepec
+```
 4. Run the provided bash script deepec.sh with the sample file provided. 
 ```
 ./deepec.sh sample_file
 ```
-5. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
+5. The result will be written in a text file named deepec_result.txt
+6. To test a larger number of sequence, format the sequence according to sample_file and run the above command replacing sample_file with your file containing sequences. 
 
 ### Deepre 
 
