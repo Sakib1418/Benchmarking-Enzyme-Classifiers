@@ -1,5 +1,6 @@
 #/usr/bin/bash
 
+
 for a in $(seq 1 2 $(cat $1 | wc -l))
 
 do
@@ -11,8 +12,8 @@ done
 wait
 
 for file in *.fasta;do
-sleep .5
-python deepec.py -i $file -o ${file}.tsv
+
+python deepec.py -i $file -o ${file}.tsv &
 sleep .5
 done
 
@@ -20,14 +21,16 @@ wait
 
 echo Prediction completed
 sleep 2
-
-for file in *.tsv;do
+rm deepec_result.txt
+for file in *.tsv;
+do
 cd $file
 cat *.txt | head -2 >> ../deepec_result.txt
 cd ..
 done
 
 wait
+
 for file in *.tsv;do
 echo $file
 rm -r $file
@@ -39,7 +42,4 @@ rm $file
 done
 
 
-
 echo DONE
-
-
