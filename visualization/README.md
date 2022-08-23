@@ -1,4 +1,4 @@
-This is the readme file for visualization workflow
+#Steps for running the visualization workflow
 
 1. Download the uniprot data from this link - https://drive.google.com/file/d/1kqYIoPYGLH-5oqKP9QI8y_ZOlnv3uHPg/view?usp=sharing
 2. Extract the folders inside in this directory. 
