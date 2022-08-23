@@ -18,3 +18,6 @@ The file description are -
 | overall_performance.py | Creates graph of performance summary of the classifier | 
 | performance_wrt_changing_length.py | Creates graph of performance over increasing length | 
 | performance_wrt_EC_number.py | Creates graph of performance in different EC number | 
+| performance_wrt_aa_composition.py | Creates graph of performance with increasing amino acid compostion | 
+| enzyme_non_enzyme_aa_ratio.py | Creates percent bar graph of enzyme and non enzyme over changing aa composition | 
+| aa_distribution.py | Creates density plot of amino acid composition | 
