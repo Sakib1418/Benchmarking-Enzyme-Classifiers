@@ -54,14 +54,3 @@ conda activate deepec
 
 1. Go to website - https://benzdb.biocomp.unibo.it/
 2. Input sequences in standard FASTA format. 
-
-## Section 2: Steps of using the visualization workflow
-
-1. Download the Uniprot data from <https://www.uniprot.org/uniprot/?query=*&fil=> and name it uniprot_data.csv
-2. Format the result according to result.csv 
-3. put uniprot_data.csv and result.csv in the same directory where visualization.py exists
-4. Run visualization.py 
-```
-$python visualization.py
-```
-5. For sample run, download the data from https://drive.google.com/file/d/1c-HkhGPwfzuiVNTxlx16DMlJzmGrGq6P/view?usp=sharing and extract the file in the same directory where the visulalization.py script exists. Then run the visualization.py like step 4. 
