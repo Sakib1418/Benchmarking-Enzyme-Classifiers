@@ -6,7 +6,7 @@ The manuscript is currently under review in Biochemical Engineering Journal.
 
 The workflow of the paper is given as - 
 
-<img src="abstract.jpg" alt="abstract" width="500"/>
+<img src="graphical_abstract.jpg" alt="graphical_abstract" width="500"/>
 
 
 
