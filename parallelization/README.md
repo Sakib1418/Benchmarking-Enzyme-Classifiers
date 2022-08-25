@@ -5,7 +5,7 @@
 ### ECpred
 
 1. Download ECpred from the website - https://github.com/cansyl/ECPred 
-2. Install ECpred according to the instructions. 
+2. Install ECpred according to the instructions. Please note, the folder is nearly 10GB in size. 
 3. The directory after successful installation should look like this -
 ![file_1](https://user-images.githubusercontent.com/66162359/182935588-fff9c14e-0729-4382-80f1-ad19c302d05b.PNG)
 
